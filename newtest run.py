@@ -10,5 +10,5 @@ print(example_username_urls)
 example_username_details = [insta_link_details(url) for url in example_username_urls]
 example_username = pd.DataFrame(example_username_details)
 example_username.head()
-csv = example_username.to_csv('/Users/Anton/Desktop/Python/Instagram Scraper/example_username.csv')
+csv = example_username.to_csv('/Users/Sanna/Desktop/Python/Instagram Scraper/example_username.csv')
 print(csv)
