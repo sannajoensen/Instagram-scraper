@@ -160,3 +160,8 @@ def insta_url_to_img(url, filename="insta.jpg"):
     # If image is not a photo, print notice
     except:
         print("No image")
+        
+        
+# Koden er fundet på: 
+# jnawjux, 2020. Found on: https://github.com/jnawjux/web_scraping_corgis?fbclid=IwAR0AUgc_J5is-CtG2Pk7DWaqfix36paSxhgAewLxDm-69awxGV3cGZ82zUs [Sidst besøgt: 20.12.2020].
+# Python Simplified, 2020: https://www.youtube.com/watch?v=iJGvYBH9mcY [Sidst besøgt: 20.12.2020].
