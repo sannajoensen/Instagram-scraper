@@ -6,7 +6,7 @@ from collections import Counter
 from newtest import recent_post_links, insta_link_details, insta_url_to_img
 
 
-example_username_urls = recent_post_links('lilmiquela', post_count=30) #Post count kan ændres i relation til antal ønskede posts
+example_username_urls = recent_post_links('lilmiquela', post_count=30)
 print(example_username_urls)
 example_username_details = [insta_link_details(url) for url in example_username_urls]
 example_username = pd.DataFrame(example_username_details)
